@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // "src/*": ["./src/MultiForm/*"]
+      "src/*": ["./src/views/MultiForm/*"]
+    }
+  }
+}

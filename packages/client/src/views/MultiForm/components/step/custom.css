@@ -1,0 +1,6 @@
+.grid-4{
+    display: grid;
+    grid-template-colums: repeat(auto-fit , minmax(200px , 1fr))
+    grid-gap:20px;
+    background: #000;
+}

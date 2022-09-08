@@ -1,0 +1,36 @@
+type Product {
+  id: Int!
+  title: String!
+}
+
+type Skill {
+  id: Int!
+  name: String!
+  image: String!
+}
+
+type Category {
+  id: Int!
+  name: String!
+  image: String!
+  statics: Int!
+}
+
+type Testimonial {
+  id: Int!
+  name: String!
+  description: String!
+  image: String!
+  position: String!
+}
+
+type Mutation {
+  createProduct(id: Int!, title: String!): Product!
+}
+
+type Query {
+  products: [Product!]!
+  skill: [Skill!]!
+  category: [Category!]!
+  testimonial: [Testimonial!]!
+}
