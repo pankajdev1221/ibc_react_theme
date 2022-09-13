@@ -37,7 +37,7 @@ const JobsOverview = () => {
           {/* <Button outline color="primary" className="btn-icon btn-sm mr-4">
             <FontAwesomeIcon icon={faHeart} />
           </Button> */}
-          <Button color="" className="btn btn-sm site-btn rounded">
+          <Button color="" className="btn btn-sm site-btn rounded mt-4">
             Add Basic Info
           </Button>
         </CardBody>

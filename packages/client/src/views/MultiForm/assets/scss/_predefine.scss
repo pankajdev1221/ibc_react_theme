@@ -133,10 +133,15 @@ h6 {
 
 .wrapper {
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - 100px);
+  position: sticky;
+  top: 0;
 }
 
 .steps-area-fixed {
-  position: fixed;
+  position: relative;
   width: 25% !important;
   .multisteps-form__progress {
     padding-top: 0;
@@ -147,7 +152,7 @@ h6 {
 }
 
 .steps-area-fixed + .multisteps-form__form {
-  margin-left: 500px;
+  // margin-left: 500px;
 }
 
 .boxed-version {
@@ -205,7 +210,7 @@ h6 {
       position: relative;
 
       &:before {
-        content: "";
+        content: '';
         top: -8px;
         left: -8px;
         width: 55px;
@@ -231,7 +236,7 @@ h6 {
         z-index: -1;
 
         &:before {
-          content: "";
+          content: '';
           width: 2px;
           height: 95px;
           background: #b8b9b9;
@@ -241,7 +246,7 @@ h6 {
         }
 
         &:after {
-          content: "";
+          content: '';
           width: 2px;
           height: 0;
           background: $base-color;
@@ -271,7 +276,7 @@ h6 {
         }
 
         &:before {
-          content: "";
+          content: '';
           top: -8px;
           left: -8px;
           width: 55px;
@@ -386,7 +391,7 @@ select.form-control {
   cursor: pointer;
   color: #999;
 
-  option[value=""][disabled] {
+  option[value=''][disabled] {
     display: none;
   }
 }
@@ -397,6 +402,7 @@ select.form-control {
   position: relative;
   float: right;
   margin-bottom: 20px;
+  padding-bottom: 2rem;
 
   ul {
     display: flex;
@@ -427,7 +433,7 @@ select.form-control {
       }
     }
 
-    &[aria-disabled="true"] {
+    &[aria-disabled='true'] {
       span {
         opacity: 0;
         transition: all 1s;
@@ -482,7 +488,7 @@ select.form-control {
       left: 2px;
       position: absolute;
       display: none;
-      content: "\f26b";
+      content: '\f26b';
     }
   }
 }
@@ -533,7 +539,7 @@ select.form-control {
     border: 1px solid #999;
 
     &:after {
-      content: "";
+      content: '';
       top: 2px;
       left: 2px;
       width: 7px;

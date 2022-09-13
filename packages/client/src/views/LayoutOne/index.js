@@ -25,7 +25,7 @@ const HomeThree = () => {
       <HeroBannerThree />
       {/* <SearchByCategory /> */}
       <BestJobsTwo />
-      <MultiForm />
+      {/* <MultiForm /> */}
       {/* <StatisticsBanner banner3 /> */}
       {/* <ControlBusiness /> */}
       {/* <DownloadAppThree /> */}

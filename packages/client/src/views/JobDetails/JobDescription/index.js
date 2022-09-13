@@ -20,7 +20,7 @@ const JobDescription = () => {
     <>
       <Card className="mb-4">
         <JobDescriptionItem title="IBC Hack 1 ">
-          <p>is brought to you by IBC Media</p>
+          <p className='mb-4 mt-n3'>is brought to you by IBC Media</p>
 
           <div className="steps-status">
             <div className="step p-3 mb-4">

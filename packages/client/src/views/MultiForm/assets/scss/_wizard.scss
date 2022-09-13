@@ -83,14 +83,18 @@
 
 //multisteps form styles
 .multisteps-form__form {
-  position: relative;
-  width: 70%;
-  float: left;
+  // position: relative;
+  // width: 70%;
+  // float: left;
+  height: calc(100vh - 100px) !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 75%;
 }
 
 //multisteps panels styles
 .multisteps-form__panel {
-  @include position-absolute($top: 0, $left: 0);
+  // @include position-absolute($top: 0, $left: 0);
   width: 100%;
   opacity: 0;
   visibility: hidden;
@@ -107,7 +111,7 @@
   }
 
   //scaleOut animation
-  &[data-animation="scaleOut"] {
+  &[data-animation='scaleOut'] {
     transform: scale(1.1);
 
     &.js-active {
@@ -118,7 +122,7 @@
   }
 
   //slideHorz animation
-  &[data-animation="slideHorz"] {
+  &[data-animation='slideHorz'] {
     left: -50px;
 
     &.js-active {
@@ -132,7 +136,7 @@
   }
 
   //slideVert animation
-  &[data-animation="slideVert"] {
+  &[data-animation='slideVert'] {
     top: 30px;
 
     &.js-active {
@@ -143,14 +147,14 @@
   }
 
   //fadeIn animation
-  &[data-animation="fadeIn"] {
+  &[data-animation='fadeIn'] {
     &.js-active {
       @include transition-mix($duration: 0.3s);
     }
   }
 
   //scaleOut
-  &[data-animation="scaleIn"] {
+  &[data-animation='scaleIn'] {
     transform: scale(0.9);
 
     &.js-active {
@@ -236,7 +240,7 @@
     &:after {
       left: 3px;
       top: 3px;
-      content: "";
+      content: '';
       width: 17px;
       height: 17px;
       display: none;
@@ -407,7 +411,7 @@
     }
 
     &:after {
-      content: "";
+      content: '';
       width: 23px;
       height: 23px;
       position: absolute;
@@ -418,7 +422,7 @@
     }
 
     &:before {
-      content: "\f00c";
+      content: '\f00c';
       top: 26px;
       left: 41px;
       font-size: 12px;
@@ -426,7 +430,7 @@
       font-weight: 900;
       display: none;
       color: $base-color;
-      font-family: "Font Awesome 5 Free";
+      font-family: 'Font Awesome 5 Free';
       position: absolute;
     }
 
@@ -532,7 +536,7 @@
       }
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         height: 28px;
         left: 15px;
@@ -542,7 +546,7 @@
       }
 
       &:before {
-        content: "\f00c";
+        content: '\f00c';
         top: 28px;
         left: 24px;
         font-size: 12px;
@@ -551,7 +555,7 @@
         display: none;
         color: #fff;
         z-index: 1;
-        font-family: "Font Awesome 5 Free";
+        font-family: 'Font Awesome 5 Free';
         position: absolute;
       }
 
@@ -593,16 +597,16 @@
     &:before {
       top: 15px;
       left: 25px;
-      content: "\f073";
+      content: '\f073';
       font-size: 20px;
       color: #959595;
       font-weight: 900;
       position: absolute;
-      font-family: "Font Awesome 5 Free";
+      font-family: 'Font Awesome 5 Free';
     }
 
     &:after {
-      content: "";
+      content: '';
       top: 24px;
       left: 80px;
       height: 20px;
@@ -638,9 +642,9 @@
     color: $base-color;
     font-size: 30px;
     font-weight: 900;
-    content: "\f058";
+    content: '\f058';
     position: absolute;
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Font Awesome 5 Free';
   }
 
   &.active {

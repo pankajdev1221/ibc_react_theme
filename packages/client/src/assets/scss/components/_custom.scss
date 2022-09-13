@@ -84,3 +84,10 @@
 .text-underline {
   text-decoration: underline;
 }
+
+.wrapper {
+  display: flex;
+}
+.steps-area-fixed {
+  position: relative !important;
+}

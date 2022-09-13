@@ -11,7 +11,7 @@ import 'bootstrap';
 import '../assets/js/bootstrap-datepicker.min.js';
 import '../assets/js/jquery.validate.min.js';
 import '../assets/js/main.js';
-module.hot.accept();
+// module.hot.accept();
 
 import React from 'react';
 import Step1 from './step/step-1';

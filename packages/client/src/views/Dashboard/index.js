@@ -22,13 +22,13 @@ const DashboardRightSide = () => {
           </Button>
         </CardBody> */}
 
-        <CardBody className="p-5">
+        <CardBody className="p-3">
           <JobLisingItem />
           <Button block color="" className="btn  btn-md site-btn rounded py-2">
             Apply Now!
           </Button>
         </CardBody>
-        <CardFooter className="d-flex justify-content-between align-items-center bg-white card-header p-5">
+        <CardFooter className="d-flex justify-content-between align-items-center bg-white card-header p-3">
           <TrendingKeyword />
         </CardFooter>
       </Card>

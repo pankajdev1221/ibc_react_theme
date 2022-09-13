@@ -19,6 +19,14 @@ import Footer from 'src/components/Footer';
 import withTitle from 'src/components/TitleComponent';
 import Breadcrumb from 'src/components/Breadcrumb';
 // import Setting from 'src/components/Setting';
+// import MultiForm from 'src/views/MultiForm/components/version-one';
+
+import Step1 from '../MultiForm/components/step/step-1';
+import Step2 from '../MultiForm/components/step/step-2';
+import Step3 from '../MultiForm/components/step/step-3';
+import Step4 from '../MultiForm/components/step/step-4';
+import Step5 from '../MultiForm/components/step/step-5';
+import Step6 from '../MultiForm/components/step/step-6';
 
 // Pages components
 const LayoutThree = lazy(() => import('../LayoutThree'));
@@ -38,6 +46,7 @@ const Dashboard = lazy(() => import('../JobDetails'));
 const Signup = lazy(() => import('../SignUp'));
 const Signin = lazy(() => import('../Signin'));
 const EventDetail = lazy(() => import('../EventDetail'));
+const FormA = lazy(() => import('../MultiForm'));
 
 const App = () => {
   const breadcrumb = useSelector((store) => store.breadcrumb);
@@ -48,6 +57,8 @@ const App = () => {
   useEffect(() => {
     dispatch(toggleTheme(theme));
   }, [theme]);
+
+  
   return (
     <Router>
       <StickyContainer>
@@ -66,7 +77,61 @@ const App = () => {
                 })
               }
             />
-            <Route
+            <Route      
+              path="/step1"
+              render={(props) =>
+                withTitle({
+                  component: Step1,
+                  ...props,
+                })
+              }
+            />
+            <Route      
+              path="/step2"
+              render={(props) =>
+                withTitle({
+                  component: Step2,
+                  ...props,
+                })
+              }
+            />
+            <Route      
+              path="/step3"
+              render={(props) =>
+                withTitle({
+                  component: Step3,
+                  ...props,
+                })
+              }
+            />
+            <Route      
+              path="/step4"
+              render={(props) =>
+                withTitle({
+                  component: Step4,
+                  ...props,
+                })
+              }
+            />
+            <Route      
+              path="/step5"
+              render={(props) =>
+                withTitle({
+                  component: Step5,
+                  ...props,
+                })
+              }
+            />
+            <Route      
+              path="/step6"
+              render={(props) =>
+                withTitle({
+                  component: Step6,
+                  ...props,
+                })
+              }
+            />
+            {/* <Route
               path="/home2"
               render={(props) =>
                 withTitle({
@@ -83,7 +148,7 @@ const App = () => {
                   ...props,
                 })
               }
-            />
+            /> */}
             <Route
               exact
               path="/contactus"
@@ -95,7 +160,7 @@ const App = () => {
                 })
               }
             />
-
+{/* 
             <Route
               exact
               path="/about"
@@ -106,8 +171,8 @@ const App = () => {
                   ...props,
                 })
               }
-            />
-
+            /> */}
+{/* 
             <Route
               exact
               path="/pricing"
@@ -118,9 +183,9 @@ const App = () => {
                   ...props,
                 })
               }
-            />
+            /> */}
 
-            <Route
+            {/* <Route
               exact
               path="/company"
               render={(props) =>
@@ -130,9 +195,9 @@ const App = () => {
                   ...props,
                 })
               }
-            />
+            /> */}
 
-            <Route
+            {/* <Route
               exact
               path="/company/details"
               render={(props) =>
@@ -142,9 +207,9 @@ const App = () => {
                   ...props,
                 })
               }
-            />
+            /> */}
 
-            <Route
+            {/* <Route
               exact
               path="/job"
               render={(props) =>
@@ -154,7 +219,7 @@ const App = () => {
                   ...props,
                 })
               }
-            />
+            /> */}
 
             <Route
               exact
@@ -162,7 +227,7 @@ const App = () => {
               render={(props) =>
                 withTitle({
                   component: Dashboard,
-                  title: 'Job Details',
+                  title: 'My Dashboard',
                   ...props,
                 })
               }
@@ -204,13 +269,14 @@ const App = () => {
             />
 
             {/* Blog pages */}
-            <Route path="/blog" component={Blog} />
+            {/* <Route path="/blog" component={Blog} /> */}
 
             {/* Candidate pages */}
-            <Route path="/candidate" component={Candidate} />
+            {/* <Route path="/candidate" component={Candidate} /> */}
 
             {/* Candidate pages */}
-            <Route path="/employer" component={Employer} />
+            {/* <Route path="/employer" component={Employer} /> */}
+            <Route path="/form" component={FormA} />
 
             {/* Default 404 */}
             <Route
@@ -225,7 +291,7 @@ const App = () => {
           </Switch>
         </Suspense>
         {/* <Newsletter /> */}
-        <Footer />
+        {/* <Footer /> */}
         {/* <Setting /> */}
       </StickyContainer>
     </Router>

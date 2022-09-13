@@ -51,7 +51,7 @@ const EventDetail = () => {
                 <b>Target Geography</b>
               </p>
               <p className="text-muted">Global</p>
-              <a href="#" className=" mt-4 btn site-btn rounded">
+              <a href="/step1" className=" mt-4 btn site-btn rounded">
                 Apply Now
               </a>
             </div>

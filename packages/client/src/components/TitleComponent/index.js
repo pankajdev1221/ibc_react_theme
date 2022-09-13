@@ -16,7 +16,7 @@ const TitleComponent = ({ title }) => {
   }, [title, dispatch]);
   return (
     <Helmet>
-      <title>{title ? `${title} - JB desks` : 'JB desks'}</title>
+      <title>{title ? `${title} - IBC Media` : 'IBC Media'}</title>
     </Helmet>
   );
 };
