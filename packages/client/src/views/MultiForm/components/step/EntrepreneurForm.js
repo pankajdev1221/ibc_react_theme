@@ -24,13 +24,13 @@ export default function Entrepreneur(){
             <div className="language-select">
                 <p>Domain  : </p>
                 <select name="domain" onChange={(e) => e.target.value !== 'others' ? setShowRoleOther(false) : setShowRoleOther(true)}>
-                    <option value="" disabled="disabled" selected="selected">Select</option>
+                    <option value="" disabled="disabled" defaultValue>Select</option>
                     <option value="Developer">Agriculture</option>
-                    <option value="Functionalconsultant">Education</option>
-                    <option value="Functionalconsultant">Health</option>
-                    <option value="Functionalconsultant">Fintech</option>
-                    <option value="Functionalconsultant">IT services</option>
-                    <option value="Functionalconsultant">Goverment Other technologies</option>
+                    <option value="edu">Education</option>
+                    <option value="health">Health</option>
+                    <option value="fintech">Fintech</option>
+                    <option value="it">IT services</option>
+                    <option value="gov">Goverment Other technologies</option>
                     <option value="others">Others</option>
                 </select>
 
@@ -48,10 +48,10 @@ export default function Entrepreneur(){
         <div className="language-select">
                 <p>Technology  : </p>
                 <select name="tech" onChange={(e) => e.target.value !== 'others' ? setShowTechOther(false) : setShowTechOther(true)}>
-                    <option value="" disabled="disabled" selected="selected">Select</option>
+                    <option value="" disabled="disabled" defaultValue>Select</option>
                     <option value="Developer">Blockchain</option>
-                    <option value="Functionalconsultant">AI/ML</option>
-                    <option value="Functionalconsultant">IoT</option>
+                    <option value="aiml">AI/ML</option>
+                    <option value="iot">IoT</option>
                     <option value="others">Others</option>
                 </select>
 

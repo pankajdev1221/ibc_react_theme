@@ -65,8 +65,8 @@ class StepOne extends React.Component {
                                     </p>
 
                                     <div className="form-inner-area">
-                                        <input type="text" name="full_name" value="pankaj mmsnj" className="form-control required" minLength="2" placeholder="First and last name *"  />
-                                        <input type="email" name="email" value="1234@gmail.com" className="form-control required" placeholder="Email Address *"  />
+                                        <input type="text" name="full_name" defaultValue="pankaj mmsnj" className="form-control required" minLength="2" placeholder="First and last name *"  />
+                                        <input type="email" name="email" defaultValue="1234@gmail.com" className="form-control required" placeholder="Email Address *"  />
                                         <input type="text" name="phone" placeholder="Phone" />
                                     </div>
                                     <div className="language-select">

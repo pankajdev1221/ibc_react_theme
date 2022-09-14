@@ -9,12 +9,12 @@ export default function StartupFinancial(){
         <div className="language-select">
             <p>Startup Stage  : </p>
             <select name="domain" onChange={(e) => e.target.value !== 'others' ? setShowStageOther(false) : setShowStageOther(true)}>
-                <option value="" disabled="disabled" selected="selected">Select</option>
-                <option value="Developer">Idea Stage</option>
-                <option value="Functionalconsultant">Seed Stage </option>
-                <option value="Functionalconsultant">Series-A</option>
-                <option value="Functionalconsultant">Series-B</option>
-                <option value="others">Others</option>
+                <option defaultValue="" disabled="disabled" selected="selected">Select</option>
+                <option defaultValue="Developer">Idea Stage</option>
+                <option defaultValue="Functionalconsultant">Seed Stage </option>
+                <option defaultValue="Functionalconsultant">Series-A</option>
+                <option defaultValue="Functionalconsultant">Series-B</option>
+                <option defaultValue="others">Others</option>
             </select>
 
         </div>
@@ -34,8 +34,8 @@ export default function StartupFinancial(){
         <div className="services-select-option">
             <p>Have you raised any funding before?</p>
             <ul className="">
-                <li className="bg-white"><label>Yes <input type="radio" name="bfore" value="yes"  /></label></li>
-                <li className="bg-white"><label>No <input type="radio" name="bfore" value="no" /></label></li>
+                <li className="bg-white"><label>Yes <input type="radio" name="bfore" defaultValue="yes"  /></label></li>
+                <li className="bg-white"><label>No <input type="radio" name="bfore" defaultValue="no" /></label></li>
             </ul>
         </div>
 

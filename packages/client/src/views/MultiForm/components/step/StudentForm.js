@@ -13,7 +13,7 @@ export default function Student(){
         <div className="language-select">
             <p>Academic Qualification   : </p>
             <select name="qualification" onChange={(e) => e.target.value !== 'others' ? setShowOther(false) : setShowOther(true)}>
-                 <option value="" disabled="disabled" selected="selected">Select</option>
+                 <option value="" disabled="disabled" defaultValue>Select</option>
                 <option value="be">BE</option>
                 <option value="btech">B.Tech</option>
                 <option value="mca">MCA</option>
@@ -40,15 +40,15 @@ export default function Student(){
         <div className="language-select">
             <p>Specialized Major   : </p>
             <select name="qualification" className="mb-4" onChange={(e) => e.target.value !== 'others' ? setShowMajorOther(false) : setShowMajorOther(true)}>
-                <option value="" disabled="disabled" selected="selected">Select</option>
-                 <option value="62db9966">Aeronautical Engineering</option>
-                 <option value="62db996a">Automobile Engineering</option>
-                 <option value="62db9976">Biotechnology</option>
-                 <option value="62db9980">Civil Engineering</option>
-                 <option value="62db998b">Computer Science and Engineering</option>
-                 <option value="62db9994">Electrical and Electronics Engineering</option>
-                 <option value="62db999d">Mechanical Engineering</option>
-                 <option value="62db99a7">Electronics &amp; Communication</option>
+                <option value="" disabled="disabled" defaultValue>Select</option>
+                 <option value="ae">Aeronautical Engineering</option>
+                 <option value="aue">Automobile Engineering</option>
+                 <option value="bio">Biotechnology</option>
+                 <option value="cvbl">Civil Engineering</option>
+                 <option value="cse">Computer Science and Engineering</option>
+                 <option value="eee">Electrical and Electronics Engineering</option>
+                 <option value="me">Mechanical Engineering</option>
+                 <option value="ec">Electronics &amp; Communication</option>
                  <option value="others">Other</option>
             </select>
 
@@ -65,15 +65,15 @@ export default function Student(){
         <div className="language-select">
             <p>Specialized Minor   : </p>
             <select name="qualification" className="mb-4" onChange={(e) => e.target.value !== 'others' ? setShowMinorOther(false) : setShowMinorOther(true)}>
-                 <option value="" disabled="disabled" selected="selected">Select</option>
-                 <option value="62db9966">Aeronautical Engineering</option>
-                 <option value="62db996a">Automobile Engineering</option>
-                 <option value="62db9976">Biotechnology</option>
-                 <option value="62db9980">Civil Engineering</option>
-                 <option value="62db998b">Computer Science and Engineering</option>
-                 <option value="62db9994">Electrical and Electronics Engineering</option>
-                 <option value="62db999d">Mechanical Engineering</option>
-                 <option value="62db99a7">Electronics &amp; Communication</option>
+                 <option value="" disabled="disabled" defaultValue>Select</option>
+                 <option value="ae">Aeronautical Engineering</option>
+                 <option value="ae">Automobile Engineering</option>
+                 <option value="bio">Biotechnology</option>
+                 <option value="cvl">Civil Engineering</option>
+                 <option value="cse">Computer Science and Engineering</option>
+                 <option value="eee">Electrical and Electronics Engineering</option>
+                 <option value="me">Mechanical Engineering</option>
+                 <option value="ec">Electronics &amp; Communication</option>
                  <option value="others">Other</option>
             </select>
 

@@ -291,7 +291,7 @@ const App = () => {
           </Switch>
         </Suspense>
         {/* <Newsletter /> */}
-        {/* <Footer /> */}
+        <Footer />
         {/* <Setting /> */}
       </StickyContainer>
     </Router>

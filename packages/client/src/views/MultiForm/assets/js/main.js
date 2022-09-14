@@ -234,7 +234,7 @@ $(function() {
         } else if(eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)  ) { 
 
          var form = $('#wizard');
-         form.validate();
+        //  form.validate();
 
 
          var parent_fieldset = $('.multisteps-form__panel.js-active');

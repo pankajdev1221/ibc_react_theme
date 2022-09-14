@@ -72,7 +72,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="Web Design"
+                              defaultValue="Web Design"
                               defaultChecked
                             />
                           </label>
@@ -83,7 +83,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="Web Development"
+                              defaultValue="Web Development"
                             />
                           </label>
                         </li>
@@ -93,7 +93,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="Graphics Design"
+                              defaultValue="Graphics Design"
                             />
                           </label>
                         </li>
@@ -103,7 +103,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="SEO"
+                              defaultValue="SEO"
                             />
                           </label>
                         </li>
@@ -118,7 +118,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti1"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Full Stack
                           </li>
@@ -126,7 +126,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti2"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Blockchain
                           </li>
@@ -134,7 +134,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti3"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             Front-end
                           </li>
@@ -144,7 +144,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti4"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Back-end
                           </li>
@@ -152,7 +152,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti5"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Game
                           </li>
@@ -160,7 +160,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti6"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             UI/UX
                           </li>
@@ -170,7 +170,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti10"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Graphic Design
                           </li>
@@ -178,7 +178,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti11"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Web
                           </li>
@@ -186,7 +186,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti12"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             System
                           </li>
@@ -196,7 +196,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti13"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Deveops
                           </li>
@@ -204,7 +204,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti14"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Data Science
                           </li>
@@ -212,7 +212,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti14"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             Mobile
                           </li>
@@ -222,7 +222,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti15"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Security
                           </li>
@@ -230,7 +230,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti16"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Product Manager
                           </li>
@@ -238,7 +238,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti17"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             Project Manager
                           </li>
@@ -249,12 +249,12 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="code_opti18"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Others
                           </li>
-                          {/* <li className="bg-white"><input type="checkbox" name="code_opti19" value="Mobile APP" />Product Manager</li>
-                                                <li className="bg-white"><input type="checkbox" name="code_opti20" value="Mobile Design" />Project Manager</li> */}
+                          {/* <li className="bg-white"><input type="checkbox" name="code_opti19" defaultValue="Mobile APP" />Product Manager</li>
+                                                <li className="bg-white"><input type="checkbox" name="code_opti20" defaultValue="Mobile Design" />Project Manager</li> */}
                         </ul>
                       </div>
                     </div>
@@ -266,7 +266,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="Solidity"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Solidity
                           </li>
@@ -274,7 +274,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="Rust"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Rust
                           </li>
@@ -282,7 +282,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="Cplus"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             C++
                           </li>
@@ -292,7 +292,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="c"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             C
                           </li>
@@ -300,7 +300,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="js"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             JavsScript
                           </li>
@@ -308,7 +308,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="ts"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             TypeScript
                           </li>
@@ -318,7 +318,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="python"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Python
                           </li>
@@ -326,7 +326,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="nodejs"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Node js
                           </li>
@@ -334,7 +334,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="csharp"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             C#
                           </li>
@@ -344,7 +344,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="sql"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             SQL
                           </li>
@@ -352,7 +352,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="assembly"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             Assembly Language
                           </li>
@@ -360,7 +360,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="haskel"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             Haskell
                           </li>
@@ -370,7 +370,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="r"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             R
                           </li>
@@ -378,7 +378,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="dotnet"
-                              value="Mobile APP"
+                              defaultValue="Mobile APP"
                             />
                             .NET
                           </li>
@@ -386,7 +386,7 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="mtlb"
-                              value="Mobile Design"
+                              defaultValue="Mobile Design"
                             />
                             MATALAB
                           </li>
@@ -397,12 +397,12 @@ class StepThree extends React.Component {
                             <input
                               type="checkbox"
                               name="others"
-                              value="Semantic coding"
+                              defaultValue="Semantic coding"
                             />
                             Others
                           </li>
-                          {/* <li className="bg-white"><input type="checkbox" name="code_opti19" value="Mobile APP" />Product Manager</li>
-                                                <li className="bg-white"><input type="checkbox" name="code_opti20" value="Mobile Design" />Project Manager</li> */}
+                          {/* <li className="bg-white"><input type="checkbox" name="code_opti19" defaultValue="Mobile APP" />Product Manager</li>
+                                                <li className="bg-white"><input type="checkbox" name="code_opti20" defaultValue="Mobile Design" />Project Manager</li> */}
                         </ul>
                       </div>
                     </div>
@@ -416,7 +416,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="Web Design"
+                              defaultValue="Web Design"
                               defaultChecked
                             />
                           </label>
@@ -427,7 +427,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="Web Development"
+                              defaultValue="Web Development"
                             />
                           </label>
                         </li>
@@ -437,7 +437,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="Graphics Design"
+                              defaultValue="Graphics Design"
                             />
                           </label>
                         </li>
@@ -447,7 +447,7 @@ class StepThree extends React.Component {
                             <input
                               type="radio"
                               name="web_service"
-                              value="SEO"
+                              defaultValue="SEO"
                             />
                           </label>
                         </li>

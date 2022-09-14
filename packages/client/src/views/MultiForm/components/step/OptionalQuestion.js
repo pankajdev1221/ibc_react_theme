@@ -21,7 +21,7 @@ export default function OptionalQuestion() {
             <div className="language-select">
                 <p>Are you open to being contacted for  : </p>
                 <select name="qualification" onChange={(e) => e.target.value !== 'others' ? setShowRoleOther(false) : setShowRoleOther(true)}>
-                    <option value="" disabled="disabled" selected="selected">Select</option>
+                    <option value="" disabled="disabled" defaultValue>Select</option>
                     <option value="empoiyee">Employment opportunities ?</option>
                     <option value="joinstartup">Joining a startup team ?</option>
                     <option value="codingbootcamp">Participating in Coding bootcamp ?  </option>

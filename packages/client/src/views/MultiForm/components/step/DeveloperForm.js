@@ -12,7 +12,7 @@ export default function Developer(){
             <div className="language-select">
                 <p>Role you are playing  : </p>
                 <select name="qualification" onChange={(e) => e.target.value !== 'others' ? setShowRoleOther(false) : setShowRoleOther(true)}>
-                    <option value="" disabled="disabled" selected="selected">Select</option>
+                    <option value="" disabled="disabled" defaultValue>Select</option>
                     <option value="Developer">Developer</option>
                     <option value="Functionalconsultant">Functional Consultant</option>
                     <option value="others">Others</option>

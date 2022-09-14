@@ -23,7 +23,7 @@ export default function EmergeStep6(){
         <div className="language-select">
             <p>Domain  : </p>
             <select name="domain" onChange={(e) => e.target.value !== 'others' ? setShowDomainOther(false) : setShowDomainOther(true)}>
-                <option value="" disabled="disabled" selected="selected">Select</option>
+                <option value="" disabled="disabled" defaultValue>Select</option>
                 <option value="Developer">Agriculture</option>
                 <option value="Functionalconsultant">Education</option>
                 <option value="Functionalconsultant">Health</option>
@@ -46,7 +46,7 @@ export default function EmergeStep6(){
         <div className="language-select">
             <p>How did you hear about IBC EMERGE Startup Pitch Competition?   : </p>
             <select name="qualification" onChange={(e) => e.target.value !== 'others' ? setShowOther(false) : setShowOther(true)}>
-                 <option value="" disabled="disabled" selected="selected">Select</option>
+                 <option value="" disabled="disabled" defaultValue>Select</option>
                 <option value="email">Email</option>
                 <option value="website">Website</option>
                 <option value="friend">Friend</option>
@@ -67,7 +67,7 @@ export default function EmergeStep6(){
         <div className="language-select">
             <p>What is your primary motivation to participate in IBC EMERGE Startup Pitch - Competition? : </p>
             <select name="qualification" onChange={(e) => e.target.value !== 'others' ? setShowMotivationOther(false) : setShowMotivationOther(true)}>
-                 <option value="" disabled="disabled" selected="selected">Select</option>
+                 <option value="" disabled="disabled" defaultValue>Select</option>
                 <option value="acceleration">acceleration</option>
                 <option value="funding">Funding</option>
                 <option value="mentorship">Mentorship</option>
