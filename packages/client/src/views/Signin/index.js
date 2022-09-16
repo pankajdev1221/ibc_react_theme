@@ -18,7 +18,7 @@ import LoginItem from 'src/components/LoginItem';
 
 const Signin = () => {
   return (
-    <Container className="pt-13">
+    <Container className="">
       <Card className="overflow-hidden">
         <Row>
           {/* <Col md={12} lg={6} className="p-0">
